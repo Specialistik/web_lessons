@@ -7,4 +7,7 @@ https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTre
 
 # Зарегистрироваться тут
 https://github.com/
-И скинуть мне адрес профиля
+# И скинуть мне адрес профиля
+
+# Код скачивается такой командой:
+git clone https://github.com/Specialistik/web_lessons

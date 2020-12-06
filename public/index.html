@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="css/lesson3.css">
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src="bootstrap-4.5.3-dist/js/bootstrap.bundle.js"></script>
         <script src="js/lesson2.js"></script>
@@ -12,15 +13,14 @@
             <a class="navbar-brand" href="/" >Главная</a>
             <a href="#" class="navbar-brand" onclick="getContacts()">Контакты</a>
             <a href="#" class="navbar-brand" onclick="getServices()">Услуги</a>
+            <a href="#" class="navbar-brand" onclick="getVideos()">Мои видео</a>
             <a href="https://yandex.ru/maps/-/CCUEqAwXkB" class="navbar-brand" target="_blank">Карты</a>
         </nav>
 
         <div class="main col-12 bg-warning" id="content" style="min-height:500px;">
             <div style="text-align: center;">
                 <h1>Добро пожаловать на мой сайт!</h1>
-                <video controls width="600" height="400" autoplay loop muted>
-                    <source src="videos/dog.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
-                </video>
+
                 <p>Я занимаюсь преподаванием программирования и веб-разработки в частности</p>
                 <p>Узнать как со мной связаться вы можете на странице <a href="#" onclick="getContacts()"  style="color: black; font-weight: bold;">контактов</a></p>
                 <p>О курсах можете узнать <a href="#" onclick="getServices()" style="color: black; font-weight: bold;">тут</a></p>

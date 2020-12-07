@@ -18,3 +18,7 @@ function getVideos() {
         document.getElementById('content').innerHTML = response.data;
     });
 }
+
+var d = new Date();
+
+document.getElementById('current_year').innerHTML = d.getFullYear();

@@ -1,0 +1,13 @@
+h3 {
+    color:rgb(118, 118, 148);
+    background-color: cornsilk;
+    font-size: medium;
+    font-weight: 800;
+}
+#second {
+    font-style: oblique;
+    font-size: medium;
+}
+.yellow {
+    color: yellow;
+}

@@ -11,19 +11,3 @@ h3 {
 .yellow {
     color: yellow;
 }
-.images {
-    width: 1000px;
-    max-height: 300px;
-}
-.images img{
-    max-width: 300px;
-    padding: 30px;
-}
-.videos {
-    margin: 10px;
-    padding: 10px;
-}
-.videos video{
-    width: 350px;
-    height: 250px;
-}

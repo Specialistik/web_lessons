@@ -4,6 +4,8 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="css/videos.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/videos.js"></script>
     </head>
     <body>
         <a href="index.html">Главная</a>
@@ -12,9 +14,10 @@
         <a href="videos.html">Видео</a>
         <a href="contacts.html">Контакты</a>
         <div class="videos">
-            <video controls width="350" height="250" autoplay loop muted src="videos/parrot.mp4"></video>
-            <video controls width="350" height="250" autoplay loop muted src="videos/dog.mp4"></video>
-            <video controls width="350" height="250" autoplay loop muted src="videos/duck.mp4"></video>
+            <video class="video" id="parrot" controls width="350" height="250" loop src="videos/parrot.mp4"></video>
+            <video class="video" id="dog" controls width="350" height="250" loop src="videos/dog.mp4"></video>
+            <video class="video" id="duck" controls width="350" height="250" loop src="videos/duck.mp4"></video>
         </div>
+        <button id="toggle">Понеслась !!!</button>
   </body>
 </html>

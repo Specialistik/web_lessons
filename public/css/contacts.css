@@ -1,13 +1,8 @@
-h3 {
-    color:rgb(118, 118, 148);
-    background-color: cornsilk;
-    font-size: medium;
-    font-weight: 800;
-}
-#second {
-    font-style: oblique;
-    font-size: medium;
-}
-.yellow {
-    color: yellow;
+#square {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    left: 100px;
 }

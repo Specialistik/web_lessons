@@ -1,15 +1,27 @@
 $(document).ready(function(){
-  var height = 100;
+  var right = true;
   var width = 100;
   function moveSquare(){
-    height++;
-    width++;
+    if(right === true){
+      width += 2;
+    } else{
+      width -= 2;
+    }
     $("#square")
-      .css("top", height + "px")
       .css("left", width + "px")
   }
   
-  $("#square").click(function(){
+
     setInterval(moveSquare, 30);
-  })  
+  
+  $("body").keydown(function(e) {
+    if(e.keyCode == 37) { // left
+    right = false;
+    }
+    else if(e.keyCode == 39) { // right
+     right = true;
+    }
+  });
+  
+  $(".dick").clone().css("left", "250px")
 })
